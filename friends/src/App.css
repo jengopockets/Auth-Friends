@@ -1,0 +1,59 @@
+body{
+  background-image: url("./img/sunrise-1756274_1920.jpg")
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h1{
+  color:rgb(9, 44, 139);
+  text-shadow: 2px 2px 8px whitesmoke;
+}
+.loginForm{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+input{
+margin-bottom: 2rem;
+border-radius: 12px;
+border-color: #282c34;
+background-color: rgb(9, 44, 139);
+text-align: center;
+}
+button{
+  border-radius: 12px;
+  border-color: #282c34;
+  background-color: rgb(9, 44, 139);
+  color: whitesmoke;
+}
